@@ -541,9 +541,9 @@
                                     </Node>
                                   </Node>
                                 </Node>
-                                <Node Id="1.170" Cat="O2" Start="59" End="59" Rule="adjp2O2" Head="0" nodeId="460010080070012" Length="1">
+                                <Node Id="1.170" Cat="OC" Start="59" End="59" Rule="adjp2OC" Head="0" nodeId="460010080070012" Length="1">
                                   <Node Id="1.171" Cat="adjp" Start="59" End="59" Rule="Adj2Adjp" Head="0" nodeId="460010080070011" Length="1">
-                                    <Node Id="1.172" Cat="adj" Start="59" End="59" StrongNumber="410" English="blameless" Case="Accusative" UnicodeLemma="ἀνέγκλητος" Unicode="ἀνεγκλήτους" Mandarin="无可指责" Gender="Masculine" Number="Plural" Label="OC" Language="G" morphId="46001008007" nodeId="460010080070010" xml:id="n46001008007" ref="1CO 1:8!7" NormalizedForm="ἀνεγκλήτους" FunctionalTag="A-APM" Type="" FormalTag="A-APM" Gloss="blameless" LexDomain="033048" LN="33.433" status="mapped">ἀνεγκλήτους</Node>
+                                    <Node Id="1.172" Cat="adj" Start="59" End="59" StrongNumber="410" English="blameless" Case="Accusative" UnicodeLemma="ἀνέγκλητος" Unicode="ἀνεγκλήτους" Mandarin="无可指责" Gender="Masculine" Number="Plural" Language="G" morphId="46001008007" nodeId="460010080070010" xml:id="n46001008007" ref="1CO 1:8!7" NormalizedForm="ἀνεγκλήτους" FunctionalTag="A-APM" Type="" FormalTag="A-APM" Gloss="blameless" LexDomain="033048" LN="33.433" status="mapped">ἀνεγκλήτους</Node>
                                   </Node>
                                 </Node>
                                 <Node Id="1.173" Cat="ADV" Start="60" End="67" Rule="pp2ADV" Head="0" HasDet="True" nodeId="460010080080081" Length="8">
@@ -26215,7 +26215,7 @@
                     <Node Id="1.56" Cat="np" Start="15" End="17" Rule="NPofNP" Head="0" nodeId="460120230040030" Length="3">
                       <Node Id="1.57" Cat="np" Start="15" End="15" Rule="Adj2NP" Head="0" nodeId="460120230040012" Length="1">
                         <Node Id="1.58" Cat="adjp" Start="15" End="15" Rule="Adj2Adjp" Head="0" nodeId="460120230040011" Length="1">
-                          <Node Id="1.59" Cat="adj" Start="15" End="15" StrongNumber="820" UnicodeLemma="ἄτιμος" Unicode="ἀτιμότερα" English="less honorable" Label="OC" Number="Plural" Degree="Comparative" morphId="46012023004" Mandarin="不体面的" Language="G" Case="Accusative" Gender="Neuter" nodeId="460120230040010" xml:id="n46012023004" ref="1CO 12:23!4" NormalizedForm="ἀτιμότερα" Type="Substantive" FunctionalTag="A-APN-C" FormalTag="A-APN-C" Gloss="less honorable" LexDomain="087004" LN="87.72" status="mapped">ἀτιμότερα</Node>
+                          <Node Id="1.59" Cat="adj" Start="15" End="15" StrongNumber="820" UnicodeLemma="ἄτιμος" Unicode="ἀτιμότερα" English="less honorable" Number="Plural" Degree="Comparative" morphId="46012023004" Mandarin="不体面的" Language="G" Case="Accusative" Gender="Neuter" nodeId="460120230040010" xml:id="n46012023004" ref="1CO 12:23!4" NormalizedForm="ἀτιμότερα" Type="Substantive" FunctionalTag="A-APN-C" FormalTag="A-APN-C" Gloss="less honorable" LexDomain="087004" LN="87.72" status="mapped">ἀτιμότερα</Node>
                         </Node>
                       </Node>
                       <Node Id="1.60" Cat="np" Start="16" End="17" Rule="DetNP" Head="1" HasDet="True" nodeId="460120230060020" Length="2">

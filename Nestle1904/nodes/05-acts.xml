@@ -162,7 +162,7 @@
                                         <Node xml:id="n44001003004" ref="ACT 1:3!4" Cat="pron" Start="32" End="32" StrongNumber="1438" UnicodeLemma="ἑαυτοῦ" Gender="Masculine" Number="Singular" FunctionalTag="F-3ASM" Type="Personal" morphId="44001003004" NormalizedForm="ἑαυτόν" Case="Accusative" Unicode="ἑαυτὸν" FormalTag="F-3ASM" nodeId="440010030040010" Gloss="Himself" Ref="n44001001013" LexDomain="092004" LN="92.25">ἑαυτὸν</Node>
                                       </Node>
                                     </Node>
-                                    <Node Cat="O2" Start="33" End="33" Rule="adjp2O2" Head="0" nodeId="440010030050015">
+                                    <Node Cat="OC" Start="33" End="33" Rule="adjp2OC" Head="0" nodeId="440010030050015">
                                       <Node Cat="adjp" Start="33" End="33" Rule="CL2Adjp" Head="0" nodeId="440010030050014">
                                         <Node Cat="CL" Start="33" End="33" Rule="V2CL" Head="0" nodeId="440010030050013">
                                           <Node Cat="V" Start="33" End="33" Rule="Vp2V" Head="0" nodeId="440010030050012">
@@ -5789,7 +5789,7 @@
                               </Node>
                             </Node>
                           </Node>
-                          <Node Cat="O2" Start="25" End="28" Rule="Np2O2" Head="0" nodeId="440020350070041">
+                          <Node Cat="OC" Start="25" End="28" Rule="Np2OC" Head="0" nodeId="440020350070041">
                             <Node Cat="np" Start="25" End="28" Rule="NPofNP" Head="0" nodeId="440020350070040">
                               <Node Cat="np" Start="25" End="25" Rule="N2NP" Head="0" nodeId="440020350070011">
                                 <Node xml:id="n44002035007" ref="ACT 2:35!7" Cat="noun" Start="25" End="25" StrongNumber="5286" UnicodeLemma="ὑποπόδιον" Gender="Neuter" Number="Singular" FunctionalTag="N-ASN" Type="Common" morphId="44002035007" NormalizedForm="ὑποπόδιον" Case="Accusative" Unicode="ὑποπόδιον" FormalTag="N-ASN" nodeId="440020350070010" Gloss="a footstool" LexDomain="006015 037001" LN="37.8 6.117">ὑποπόδιον</Node>
@@ -5856,7 +5856,7 @@
               <Node Cat="CL" Start="6" End="20" Rule="that-VP" nodeId="440020360070150">
                 <Node xml:id="n44002036007" ref="ACT 2:36!7" Cat="conj" Start="6" End="6" StrongNumber="3754" UnicodeLemma="ὅτι" FunctionalTag="CONJ" Type="" morphId="44002036007" NormalizedForm="ὅτι" Unicode="ὅτι" FormalTag="CONJ" nodeId="440020360070010" Gloss="that" LexDomain="090006" LN="90.21">ὅτι</Node>
                 <Node Cat="CL" Start="7" End="20" Rule="O2-V-S-O" Head="1" nodeId="440020360080140">
-                  <Node Cat="O2" Start="7" End="10" Rule="Np2O2" Head="0" nodeId="440020360080041">
+                  <Node Cat="OC" Start="7" End="10" Rule="Np2OC" Head="0" nodeId="440020360080041">
                     <Node Cat="np" Start="7" End="10" Rule="aNpaNp" Head="1" nodeId="440020360080040">
                       <Node xml:id="n44002036008" ref="ACT 2:36!8" Cat="conj" Start="7" End="7" StrongNumber="2532" UnicodeLemma="καί" FunctionalTag="CONJ" Type="" morphId="44002036008" NormalizedForm="καί" Unicode="καὶ" FormalTag="CONJ" nodeId="440020360080010" Gloss="both" LexDomain="089017" LN="89.102">καὶ</Node>
                       <Node Cat="np" Start="8" End="8" Rule="N2NP" Head="0" nodeId="440020360090011">
@@ -6623,7 +6623,7 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="9" End="9" Rule="adjp2O2" Head="0" nodeId="440020440100012">
+                <Node Cat="OC" Start="9" End="9" Rule="adjp2OC" Head="0" nodeId="440020440100012">
                   <Node Cat="adjp" Start="9" End="9" Rule="Adj2Adjp" Head="0" nodeId="440020440100011">
                     <Node xml:id="n44002044010" ref="ACT 2:44!10" Cat="adj" Start="9" End="9" StrongNumber="2839" UnicodeLemma="κοινός" Gender="Neuter" Number="Plural" FunctionalTag="A-APN" Type="" morphId="44002044010" NormalizedForm="κοινά" Case="Accusative" Unicode="κοινά," FormalTag="A-APN" nodeId="440020440100010" Gloss="in common" LexDomain="057001" LN="57.9">κοινά,</Node>
                   </Node>
@@ -13881,7 +13881,12 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="CL" Start="5" End="26" Rule="ClCl" Head="0" nodeId="440050090060220">
+              <!-- LowfatException: ACT 5:9 "Τί ὅτι συνεφωνήθη ὑμῖν... ἰδοὺ οἱ πόδες τῶν θαψάντων"
+              Peter's speech: rhetorical question + announcement. The projecting predicate
+              ("Peter said to her") is in the preceding VerbElided sibling, invisible to
+              the coordination/projection heuristics. Force coordination, then force
+              projected-discourse treatment within the coordination branch. -->
+              <Node Cat="CL" Start="5" End="26" Rule="ClCl" Head="0" nodeId="440050090060220" LowfatException="force-coordination force-projected-discourse">
                 <Node Cat="CL" Start="5" End="12" Rule="P-S" Head="0" ClType="Verbless" nodeId="440050090060080">
                   <Node Cat="P" Start="5" End="5" Rule="Np2P" Head="0" nodeId="440050090060012">
                     <Node Cat="np" Start="5" End="5" Rule="Pron2NP" Head="0" nodeId="440050090060011">
@@ -16051,7 +16056,7 @@
                 </Node>
               </Node>
             </Node>
-            <Node Cat="O2" Start="3" End="5" Rule="Np2O2" Head="0" nodeId="440050310040031">
+            <Node Cat="OC" Start="3" End="5" Rule="Np2OC" Head="0" nodeId="440050310040031">
               <Node Cat="np" Start="3" End="5" Rule="NpaNp" Head="0" nodeId="440050310040030">
                 <Node Cat="np" Start="3" End="3" Rule="N2NP" Head="0" nodeId="440050310040011">
                   <Node xml:id="n44005031004" ref="ACT 5:31!4" Cat="noun" Start="3" End="3" StrongNumber="747" UnicodeLemma="ἀρχηγός" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Common" morphId="44005031004" NormalizedForm="Ἀρχηγόν" Case="Accusative" Unicode="Ἀρχηγὸν" FormalTag="N-ASM" nodeId="440050310040010" Gloss="[as] Prince" LexDomain="036001" LN="36.6">Ἀρχηγὸν</Node>
@@ -20512,7 +20517,7 @@
                       </Node>
                     </Node>
                   </Node>
-                  <Node Cat="O2" Start="13" End="13" Rule="adjp2O2" Head="0" nodeId="440070190130012">
+                  <Node Cat="OC" Start="13" End="13" Rule="adjp2OC" Head="0" nodeId="440070190130012">
                     <Node Cat="adjp" Start="13" End="13" Rule="Adj2Adjp" Head="0" nodeId="440070190130011">
                       <Node xml:id="n44007019013" ref="ACT 7:19!13" Cat="adj" Start="13" End="13" StrongNumber="1570" UnicodeLemma="ἔκθετος" Gender="Neuter" Number="Plural" FunctionalTag="A-APN" Type="" morphId="44007019013" NormalizedForm="ἔκθετα" Case="Accusative" Unicode="ἔκθετα" FormalTag="A-APN" nodeId="440070190130010" Gloss="abandon" LexDomain="085002" LN="85.47">ἔκθετα</Node>
                     </Node>
@@ -21268,7 +21273,7 @@
                           <Node xml:id="n44007027011" ref="ACT 7:27!11" Cat="verb" Start="10" End="10" StrongNumber="2525" UnicodeLemma="καθίστημι" Person="Third" Mood="Indicative" Tense="Aorist" Number="Singular" FunctionalTag="V-AAI-3S" Type="" morphId="44007027011" NormalizedForm="κατέστησεν" Unicode="κατέστησεν" FormalTag="V-AAI-3S" Voice="Active" nodeId="440070270110010" Gloss="appointed" Frame="A0:n44007027009 A1:n44007027010" LexDomain="037005" LN="37.104">κατέστησεν</Node>
                         </Node>
                       </Node>
-                      <Node Cat="O2" Start="11" End="15" Rule="Np2O2" Head="0" nodeId="440070270120051">
+                      <Node Cat="OC" Start="11" End="15" Rule="Np2OC" Head="0" nodeId="440070270120051">
                         <Node Cat="np" Start="11" End="15" Rule="NpPp" Head="0" nodeId="440070270120050">
                           <Node Cat="np" Start="11" End="13" Rule="NpaNp" Head="0" nodeId="440070270120030">
                             <Node Cat="np" Start="11" End="11" Rule="N2NP" Head="0" nodeId="440070270120011">
@@ -22048,7 +22053,7 @@
                             <Node xml:id="n44007035009" ref="ACT 7:35!9" Cat="verb" Start="8" End="8" StrongNumber="2525" UnicodeLemma="καθίστημι" Person="Third" Mood="Indicative" Tense="Aorist" Number="Singular" FunctionalTag="V-AAI-3S" Type="" morphId="44007035009" NormalizedForm="κατέστησεν" Unicode="κατέστησεν" FormalTag="V-AAI-3S" Voice="Active" nodeId="440070350090010" Gloss="appointed" Frame="A0:n44007035007 A1:n44007035008" LexDomain="037005" LN="37.104">κατέστησεν</Node>
                           </Node>
                         </Node>
-                        <Node Cat="O2" Start="9" End="11" Rule="Np2O2" Head="0" nodeId="440070350100031">
+                        <Node Cat="OC" Start="9" End="11" Rule="Np2OC" Head="0" nodeId="440070350100031">
                           <Node Cat="np" Start="9" End="11" Rule="NpaNp" Head="0" nodeId="440070350100030">
                             <Node Cat="np" Start="9" End="9" Rule="N2NP" Head="0" nodeId="440070350100011">
                               <Node xml:id="n44007035010" ref="ACT 7:35!10" Cat="noun" Start="9" End="9" StrongNumber="758" UnicodeLemma="ἄρχων" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Common" morphId="44007035010" NormalizedForm="ἄρχοντα" Case="Accusative" Unicode="ἄρχοντα" FormalTag="N-ASM" nodeId="440070350100010" Gloss="ruler" LexDomain="037004" LN="37.56">ἄρχοντα</Node>
@@ -22079,7 +22084,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="O2" Start="15" End="18" Rule="Np2O2" Head="0" nodeId="440070350160041">
+              <Node Cat="OC" Start="15" End="18" Rule="Np2OC" Head="0" nodeId="440070350160041">
                 <Node Cat="np" Start="15" End="18" Rule="aNpaNp" Head="1" nodeId="440070350160040">
                   <Node xml:id="n44007035016" ref="ACT 7:35!16" Cat="conj" Start="15" End="15" StrongNumber="2532" UnicodeLemma="καί" FunctionalTag="CONJ" Type="" morphId="44007035016" NormalizedForm="καί" Unicode="καὶ" FormalTag="CONJ" nodeId="440070350160010" Gloss="and" LexDomain="089017" LN="89.102">καὶ</Node>
                   <Node Cat="np" Start="16" End="16" Rule="N2NP" Head="0" nodeId="440070350170011">
@@ -32553,7 +32558,7 @@
                     <Node xml:id="n44009041015" ref="ACT 9:41!15" Cat="pron" Start="14" End="14" StrongNumber="846" UnicodeLemma="αὐτός" Gender="Feminine" Number="Singular" FunctionalTag="P-ASF" Type="Personal" morphId="44009041015" NormalizedForm="αὐτήν" Case="Accusative" Unicode="αὐτὴν" FormalTag="P-ASF" nodeId="440090410150010" Gloss="her" Ref="n44009039030" LexDomain="092004" LN="92.11">αὐτὴν</Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="15" End="15" Rule="adjp2O2" Head="0" nodeId="440090410160015">
+                <Node Cat="OC" Start="15" End="15" Rule="adjp2OC" Head="0" nodeId="440090410160015">
                   <Node Cat="adjp" Start="15" End="15" Rule="CL2Adjp" Head="0" nodeId="440090410160014">
                     <Node Cat="CL" Start="15" End="15" Rule="V2CL" Head="0" nodeId="440090410160013">
                       <Node Cat="V" Start="15" End="15" Rule="Vp2V" Head="0" nodeId="440090410160012">
@@ -35292,7 +35297,7 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="6" End="8" Rule="adjp2O2" Head="0" nodeId="440100280210031">
+                <Node Cat="OC" Start="6" End="8" Rule="adjp2OC" Head="0" nodeId="440100280210031">
                   <Node Cat="adjp" Start="6" End="8" Rule="AdjpaAdjp" Head="0" nodeId="440100280210030">
                     <Node Cat="adjp" Start="6" End="6" Rule="Adj2Adjp" Head="0" nodeId="440100280210011">
                       <Node xml:id="n44010028021" ref="ACT 10:28!21" Cat="adj" Start="6" End="6" StrongNumber="2839" UnicodeLemma="κοινός" Gender="Masculine" Number="Singular" FunctionalTag="A-ASM" Type="" morphId="44010028021" NormalizedForm="κοινόν" Case="Accusative" Unicode="κοινὸν" FormalTag="A-ASM" nodeId="440100280210010" Gloss="common" LexDomain="053004" LN="53.39">κοινὸν</Node>
@@ -43350,7 +43355,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="O2" Start="4" End="4" Rule="Np2O2" Head="0" nodeId="440130050190012">
+              <Node Cat="OC" Start="4" End="4" Rule="Np2OC" Head="0" nodeId="440130050190012">
                 <Node Cat="np" Start="4" End="4" Rule="N2NP" Head="0" nodeId="440130050190011">
                   <Node xml:id="n44013005019" ref="ACT 13:5!19" Cat="noun" Start="4" End="4" StrongNumber="5257" UnicodeLemma="ὑπηρέτης" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Common" morphId="44013005019" NormalizedForm="ὑπηρέτην" Case="Accusative" Unicode="ὑπηρέτην." FormalTag="N-ASM" nodeId="440130050190010" Gloss="a helper" LexDomain="035002" LN="35.20">ὑπηρέτην.</Node>
                 </Node>
@@ -47316,7 +47321,7 @@
                       <Node xml:id="n44013046025" ref="ACT 13:46!25" Cat="pron" Start="6" End="6" StrongNumber="1438" UnicodeLemma="ἑαυτοῦ" Gender="Masculine" Number="Plural" FunctionalTag="F-2APM" Type="Personal" morphId="44013046025" NormalizedForm="ἑαυτούς" Case="Accusative" Unicode="ἑαυτοὺς" FormalTag="F-2APM" nodeId="440130460250010" Gloss="yourselves" Ref="n44013045004" LexDomain="092004" LN="92.25">ἑαυτοὺς</Node>
                     </Node>
                   </Node>
-                  <Node Cat="O2" Start="7" End="10" Rule="adjp2O2" Head="0" nodeId="440130460230041">
+                  <Node Cat="OC" Start="7" End="10" Rule="adjp2OC" Head="0" nodeId="440130460230041">
                     <Node Cat="adjp" Start="7" End="10" Rule="AdjpAdvp" Head="0" nodeId="440130460230040">
                       <Node Cat="adjp" Start="7" End="7" Rule="Adj2Adjp" Head="0" nodeId="440130460230011">
                         <Node xml:id="n44013046023" ref="ACT 13:46!23" Cat="adj" Start="7" End="7" StrongNumber="514" UnicodeLemma="ἄξιος" Gender="Masculine" Number="Plural" FunctionalTag="A-APM" Type="" morphId="44013046023" NormalizedForm="ἀξίους" Case="Accusative" Unicode="ἀξίους" FormalTag="A-APM" nodeId="440130460230010" Gloss="worthy" LexDomain="065002" LN="65.17">ἀξίους</Node>
@@ -48833,7 +48838,7 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="4" End="4" Rule="Np2O2" Head="0" nodeId="440140120050012">
+                <Node Cat="OC" Start="4" End="4" Rule="Np2OC" Head="0" nodeId="440140120050012">
                   <Node Cat="np" Start="4" End="4" Rule="N2NP" Head="0" nodeId="440140120050011">
                     <Node xml:id="n44014012005" ref="ACT 14:12!5" Cat="noun" Start="4" End="4" StrongNumber="2203" UnicodeLemma="Ζεύς" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Proper" morphId="44014012005" NormalizedForm="Δία" Case="Accusative" Unicode="Δία," FormalTag="N-ASM" nodeId="440140120050010" Gloss="Zeus" LexDomain="093001" LN="93.138">Δία,</Node>
                   </Node>
@@ -48850,7 +48855,7 @@
                       </Node>
                     </Node>
                   </Node>
-                  <Node Cat="O2" Start="8" End="8" Rule="Np2O2" Head="0" nodeId="440140120090012">
+                  <Node Cat="OC" Start="8" End="8" Rule="Np2OC" Head="0" nodeId="440140120090012">
                     <Node Cat="np" Start="8" End="8" Rule="N2NP" Head="0" nodeId="440140120090011">
                       <Node xml:id="n44014012009" ref="ACT 14:12!9" Cat="noun" Start="8" End="8" StrongNumber="2060" UnicodeLemma="Ἑρμῆς" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Proper" morphId="44014012009" NormalizedForm="Ἑρμῆν" Case="Accusative" Unicode="Ἑρμῆν," FormalTag="N-ASM" nodeId="440140120090010" Gloss="Hermes" LexDomain="093001" LN="93.124a">Ἑρμῆν,</Node>
                     </Node>
@@ -49358,7 +49363,7 @@
                   <Node xml:id="n44014017002" ref="ACT 14:17!2" Cat="adv" Start="1" End="1" StrongNumber="3756" UnicodeLemma="οὐ" FunctionalTag="PRT-N" Type="" morphId="44014017002" NormalizedForm="οὐκ" Unicode="οὐκ" FormalTag="PRT-N" nodeId="440140170020010" Gloss="not" LexDomain="069002" LN="69.3">οὐκ</Node>
                 </Node>
               </Node>
-              <Node Cat="O2" Start="2" End="2" Rule="Np2O2" Head="0" nodeId="440140170030013">
+              <Node Cat="OC" Start="2" End="2" Rule="Np2OC" Head="0" nodeId="440140170030013">
                 <Node Cat="np" Start="2" End="2" Rule="Adj2NP" Head="0" nodeId="440140170030012">
                   <Node Cat="adjp" Start="2" End="2" Rule="Adj2Adjp" Head="0" nodeId="440140170030011">
                     <Node xml:id="n44014017003" ref="ACT 14:17!3" Cat="adj" Start="2" End="2" StrongNumber="267" UnicodeLemma="ἀμάρτυρος" Gender="Masculine" Number="Singular" FunctionalTag="A-ASM" Type="" morphId="44014017003" NormalizedForm="ἀμάρτυρον" Case="Accusative" Unicode="ἀμάρτυρον" FormalTag="A-ASM" nodeId="440140170030010" Gloss="without witness" LexDomain="033020" LN="33.267">ἀμάρτυρον</Node>
@@ -69457,7 +69462,7 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="4" End="4" Rule="adjp2O2" Head="0" nodeId="440200120050015">
+                <Node Cat="OC" Start="4" End="4" Rule="adjp2OC" Head="0" nodeId="440200120050015">
                   <Node Cat="adjp" Start="4" End="4" Rule="CL2Adjp" Head="0" nodeId="440200120050014">
                     <Node Cat="CL" Start="4" End="4" Rule="V2CL" Head="0" nodeId="440200120050013">
                       <Node Cat="V" Start="4" End="4" Rule="Vp2V" Head="0" nodeId="440200120050012">
@@ -70589,7 +70594,7 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Cat="O2" Start="6" End="7" Rule="adjp2O2" Head="0" nodeId="440200240070021">
+              <Node Cat="OC" Start="6" End="7" Rule="adjp2OC" Head="0" nodeId="440200240070021">
                 <Node Cat="adjp" Start="6" End="7" Rule="AdjpAdvp" Head="0" nodeId="440200240070020">
                   <Node Cat="adjp" Start="6" End="6" Rule="Adj2Adjp" Head="0" nodeId="440200240070011">
                     <Node xml:id="n44020024007" ref="ACT 20:24!7" Cat="adj" Start="6" End="6" StrongNumber="5093" UnicodeLemma="τίμιος" Gender="Feminine" Number="Singular" FunctionalTag="A-ASF" Type="" morphId="44020024007" NormalizedForm="τιμίαν" Case="Accusative" Unicode="τιμίαν" FormalTag="A-ASF" nodeId="440200240070010" Gloss="dear" LexDomain="065001" LN="65.2">τιμίαν</Node>
@@ -71014,7 +71019,7 @@
                             <Node xml:id="n44020028014" ref="ACT 20:28!14" Cat="verb" Start="13" End="13" StrongNumber="5087" UnicodeLemma="τίθημι" Person="Third" Mood="Indicative" Tense="Aorist" Number="Singular" FunctionalTag="V-2AMI-3S" Type="" morphId="44020028014" NormalizedForm="ἔθετο" Unicode="ἔθετο" FormalTag="V-2AMI-3S" Voice="Middle" nodeId="440200280140010" Gloss="has set" Frame="A1:n44020028009 A0:n44020028011" LexDomain="037005" LN="37.96">ἔθετο</Node>
                           </Node>
                         </Node>
-                        <Node Cat="O2" Start="14" End="14" Rule="Np2O2" Head="0" nodeId="440200280150012">
+                        <Node Cat="OC" Start="14" End="14" Rule="Np2OC" Head="0" nodeId="440200280150012">
                           <Node Cat="np" Start="14" End="14" Rule="N2NP" Head="0" nodeId="440200280150011">
                             <Node xml:id="n44020028015" ref="ACT 20:28!15" Cat="noun" Start="14" End="14" StrongNumber="1985" UnicodeLemma="ἐπίσκοπος" Gender="Masculine" Number="Plural" FunctionalTag="N-APM" Type="Common" morphId="44020028015" NormalizedForm="ἐπισκόπους" Case="Accusative" Unicode="ἐπισκόπους," FormalTag="N-APM" nodeId="440200280150010" Gloss="overseers" LexDomain="053009" LN="53.71">ἐπισκόπους,</Node>
                           </Node>
@@ -76858,7 +76863,7 @@
                                   </Node>
                                 </Node>
                               </Node>
-                              <Node Cat="O2" Start="78" End="78" Rule="adjp2O2" Head="0" nodeId="440220050270015">
+                              <Node Cat="OC" Start="78" End="78" Rule="adjp2OC" Head="0" nodeId="440220050270015">
                                 <Node Cat="adjp" Start="78" End="78" Rule="CL2Adjp" Head="0" nodeId="440220050270014">
                                   <Node Cat="CL" Start="78" End="78" Rule="V2CL" Head="0" nodeId="440220050270013">
                                     <Node Cat="V" Start="78" End="78" Rule="Vp2V" Head="0" nodeId="440220050270012">
@@ -84315,7 +84320,7 @@
                                 <Node xml:id="n44024014010" ref="ACT 24:14!10" Cat="verb" Start="9" End="9" StrongNumber="3004" UnicodeLemma="λέγω" Person="Third" Mood="Indicative" Tense="Present" Number="Plural" FunctionalTag="V-PAI-3P" Type="" morphId="44024014010" NormalizedForm="λέγουσιν" Unicode="λέγουσιν" FormalTag="V-PAI-3P" Voice="Active" nodeId="440240140100010" Gloss="they call" SubjRef="n44024001007 n44024001010 n44024002007 n44024009005" Frame="A0:n44024001007;n44024001010;n44024002007;n44024009005 A1:n44024014009" LexDomain="033009" LN="33.131">λέγουσιν</Node>
                               </Node>
                             </Node>
-                            <Node Cat="O2" Start="10" End="10" Rule="Np2O2" Head="0" nodeId="440240140110012">
+                            <Node Cat="OC" Start="10" End="10" Rule="Np2OC" Head="0" nodeId="440240140110012">
                               <Node Cat="np" Start="10" End="10" Rule="N2NP" Head="0" nodeId="440240140110011">
                                 <Node xml:id="n44024014011" ref="ACT 24:14!11" Cat="noun" Start="10" End="10" StrongNumber="139" UnicodeLemma="αἵρεσις" Gender="Feminine" Number="Singular" FunctionalTag="N-ASF" Type="Common" morphId="44024014011" NormalizedForm="αἵρεσιν" Case="Accusative" Unicode="αἵρεσιν" FormalTag="N-ASF" nodeId="440240140110010" Gloss="a sect" LexDomain="011002" LN="11.50">αἵρεσιν</Node>
                               </Node>
@@ -85680,7 +85685,7 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Cat="O2" Start="20" End="20" Rule="adjp2O2" Head="0" nodeId="440240270210015">
+                <Node Cat="OC" Start="20" End="20" Rule="adjp2OC" Head="0" nodeId="440240270210015">
                   <Node Cat="adjp" Start="20" End="20" Rule="CL2Adjp" Head="0" nodeId="440240270210014">
                     <Node Cat="CL" Start="20" End="20" Rule="V2CL" Head="0" nodeId="440240270210013">
                       <Node Cat="V" Start="20" End="20" Rule="Vp2V" Head="0" nodeId="440240270210012">
@@ -88799,7 +88804,7 @@
                         <Node xml:id="n44026002010" ref="ACT 26:2!10" Cat="pron" Start="16" End="16" StrongNumber="1683" UnicodeLemma="ἐμαυτοῦ" Gender="Masculine" Number="Singular" FunctionalTag="F-1ASM" Type="Personal" morphId="44026002010" NormalizedForm="ἐμαυτόν" Case="Accusative" Unicode="ἐμαυτὸν" FormalTag="F-1ASM" nodeId="440260020100010" Gloss="myself" Ref="n44026001014" LexDomain="092001" LN="92.3">ἐμαυτὸν</Node>
                       </Node>
                     </Node>
-                    <Node Cat="O2" Start="17" End="17" Rule="adjp2O2" Head="0" nodeId="440260020110012">
+                    <Node Cat="OC" Start="17" End="17" Rule="adjp2OC" Head="0" nodeId="440260020110012">
                       <Node Cat="adjp" Start="17" End="17" Rule="Adj2Adjp" Head="0" nodeId="440260020110011">
                         <Node xml:id="n44026002011" ref="ACT 26:2!11" Cat="adj" Start="17" End="17" StrongNumber="3107" UnicodeLemma="μακάριος" Gender="Masculine" Number="Singular" FunctionalTag="A-ASM" Type="" morphId="44026002011" NormalizedForm="μακάριον" Case="Accusative" Unicode="μακάριον" FormalTag="A-ASM" nodeId="440260020110010" Gloss="fortunate" LexDomain="025011" LN="25.119">μακάριον</Node>
                       </Node>
@@ -90178,7 +90183,7 @@
                         <Node xml:id="n44026016015" ref="ACT 26:16!15" Cat="pron" Start="6" End="6" StrongNumber="4771" UnicodeLemma="σύ" Number="Singular" FunctionalTag="P-2AS" Type="Personal" morphId="44026016015" NormalizedForm="σε" Case="Accusative" Unicode="σε" FormalTag="P-2AS" nodeId="440260160150010" Gloss="you" Ref="n44026001014" LexDomain="092003" LN="92.6">σε</Node>
                       </Node>
                     </Node>
-                    <Node Cat="O2" Start="7" End="17" Rule="Np2O2" Head="0" nodeId="440260160160111">
+                    <Node Cat="OC" Start="7" End="17" Rule="Np2OC" Head="0" nodeId="440260160160111">
                       <Node Cat="np" Start="7" End="17" Rule="NpaNp" Head="0" nodeId="440260160160110">
                         <Node Cat="np" Start="7" End="7" Rule="N2NP" Head="0" nodeId="440260160160011">
                           <Node xml:id="n44026016016" ref="ACT 26:16!16" Cat="noun" Start="7" End="7" StrongNumber="5257" UnicodeLemma="ὑπηρέτης" Gender="Masculine" Number="Singular" FunctionalTag="N-ASM" Type="Common" morphId="44026016016" NormalizedForm="ὑπηρέτην" Case="Accusative" Unicode="ὑπηρέτην" FormalTag="N-ASM" nodeId="440260160160010" Gloss="a servant" LexDomain="035002" LN="35.20">ὑπηρέτην</Node>

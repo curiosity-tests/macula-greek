@@ -536,7 +536,7 @@
                                             </Node>
                                           </Node>
                                         </Node>
-                                        <Node Cat="O2" Start="58" End="58" Rule="adjp2O2" Head="0" nodeId="460010080070012">
+                                        <Node Cat="OC" Start="58" End="58" Rule="adjp2OC" Head="0" nodeId="460010080070012">
                                           <Node Cat="adjp" Start="58" End="58" Rule="Adj2Adjp" Head="0" nodeId="460010080070011">
                                             <Node xml:id="n46001008007" ref="1CO 1:8!7" Cat="adj" Start="58" End="58" StrongNumber="410" UnicodeLemma="ἀνέγκλητος" Gender="Masculine" Number="Plural" FunctionalTag="A-APM" Type="" morphId="46001008007" NormalizedForm="ἀνεγκλήτους" Case="Accusative" Unicode="ἀνεγκλήτους" FormalTag="A-APM" nodeId="460010080070010" Gloss="blameless" LexDomain="033048" LN="33.433">ἀνεγκλήτους</Node>
                                           </Node>

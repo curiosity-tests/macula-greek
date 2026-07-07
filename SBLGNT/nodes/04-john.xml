@@ -4339,7 +4339,7 @@
                 <Node Id="1.42" Cat="np" Start="12" End="13" Rule="DetNP" Head="1" HasDet="True" nodeId="430010480190020" Length="2">
                   <Node Id="1.43" Cat="det" Start="12" End="12" StrongNumber="3588" English="the" Case="Accusative" UnicodeLemma="ὁ" Unicode="τὴν" Mandarin="那" Gender="Feminine" Number="Singular" Language="G" morphId="43001048019" nodeId="430010480190010" xml:id="n43001048019" ref="JHN 1:48!19" NormalizedForm="τὴν" FunctionalTag="T-ASF" Type="" FormalTag="T-ASF" Gloss="the" LexDomain="092004" LN="92.24" status="mapped">τὴν</Node>
                   <Node Id="1.44" Cat="np" Start="13" End="13" Rule="N2NP" Head="0" nodeId="430010480200011" Length="1">
-                    <Node Id="1.45" Cat="noun" Start="13" End="13" StrongNumber="4808" UnicodeLemma="συκῆ" Unicode="συκῆν" English="fig tree" Label="OC" Number="Singular" Type="Common" morphId="43001048020" Mandarin="无花果树" Language="G" Case="Accusative" Gender="Feminine" nodeId="430010480200010" xml:id="n43001048020" ref="JHN 1:48!20" NormalizedForm="συκῆν" FunctionalTag="N-ASF" FormalTag="N-ASF" Gloss="fig tree" LexDomain="003002" LN="3.5" status="mapped">συκῆν</Node>
+                    <Node Id="1.45" Cat="noun" Start="13" End="13" StrongNumber="4808" UnicodeLemma="συκῆ" Unicode="συκῆν" English="fig tree" Number="Singular" Type="Common" morphId="43001048020" Mandarin="无花果树" Language="G" Case="Accusative" Gender="Feminine" nodeId="430010480200010" xml:id="n43001048020" ref="JHN 1:48!20" NormalizedForm="συκῆν" FunctionalTag="N-ASF" FormalTag="N-ASF" Gloss="fig tree" LexDomain="003002" LN="3.5" status="mapped">συκῆν</Node>
                   </Node>
                 </Node>
               </Node>
@@ -5915,7 +5915,7 @@
             </Node>
             <Node Id="1.40" Cat="V" Start="15" End="15" Rule="Vp2V" Head="0" nodeId="430020140160012" Length="1">
               <Node Id="1.41" Cat="vp" Start="15" End="15" Rule="V2VP" Head="0" nodeId="430020140160011" Length="1">
-                <Node Id="1.42" Cat="verb" Start="15" End="15" StrongNumber="2521" UnicodeLemma="κάθημαι" Voice="Middle" Unicode="καθημένους," English="seated" Label="OC" Tense="Present" Number="Plural" morphId="43002014016" Mandarin="坐" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430020140160010" xml:id="n43002014016" ref="JHN 2:14!16" NormalizedForm="καθημένους" FunctionalTag="V-PNP-APM" Type="" FormalTag="V-PNP-APM" Gloss="sitting" Frame="A0:n43002014007;n43002014015" LexDomain="017002" LN="17.12" status="mapped">καθημένους,</Node>
+                <Node Id="1.42" Cat="verb" Start="15" End="15" StrongNumber="2521" UnicodeLemma="κάθημαι" Voice="Middle" Unicode="καθημένους," English="seated" Tense="Present" Number="Plural" morphId="43002014016" Mandarin="坐" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430020140160010" xml:id="n43002014016" ref="JHN 2:14!16" NormalizedForm="καθημένους" FunctionalTag="V-PNP-APM" Type="" FormalTag="V-PNP-APM" Gloss="sitting" Frame="A0:n43002014007;n43002014015" LexDomain="017002" LN="17.12" status="mapped">καθημένους,</Node>
               </Node>
             </Node>
           </Node>
@@ -6113,10 +6113,10 @@
                   </Node>
                 </Node>
               </Node>
-              <Node Id="1.162" Cat="O2" Start="58" End="59" Rule="Np2O2" Head="0" nodeId="430020160170021" Length="2">
+              <Node Id="1.162" Cat="OC" Start="58" End="59" Rule="Np2OC" Head="0" nodeId="430020160170021" Length="2">
                 <Node Id="1.163" Cat="np" Start="58" End="59" Rule="NPofNP" Head="0" nodeId="430020160170020" Length="2">
                   <Node Id="1.164" Cat="np" Start="58" End="58" Rule="N2NP" Head="0" nodeId="430020160170011" Length="1">
-                    <Node Id="1.165" Cat="noun" Start="58" End="58" StrongNumber="3624" UnicodeLemma="οἶκος" Unicode="οἶκον" English="house" Label="OC" Number="Singular" Type="Common" morphId="43002016017" Mandarin="地方" Language="G" Case="Accusative" Gender="Masculine" nodeId="430020160170010" xml:id="n43002016017" ref="JHN 2:16!17" NormalizedForm="οἶκον" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="a house" LexDomain="007002" LN="7.2" status="mapped">οἶκον</Node>
+                    <Node Id="1.165" Cat="noun" Start="58" End="58" StrongNumber="3624" UnicodeLemma="οἶκος" Unicode="οἶκον" English="house" Number="Singular" Type="Common" morphId="43002016017" Mandarin="地方" Language="G" Case="Accusative" Gender="Masculine" nodeId="430020160170010" xml:id="n43002016017" ref="JHN 2:16!17" NormalizedForm="οἶκον" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="a house" LexDomain="007002" LN="7.2" status="mapped">οἶκον</Node>
                   </Node>
                   <Node Id="1.166" Cat="np" Start="59" End="59" Rule="N2NP" Head="0" nodeId="430020160180011" Length="1">
                     <Node Id="1.167" Cat="noun" Start="59" End="59" StrongNumber="1712" UnicodeLemma="ἐμπόριον" Unicode="ἐμπορίου." English="marketplace" Number="Singular" Type="Common" morphId="43002016018" Mandarin="买卖" Language="G" Case="Genitive" Gender="Neuter" nodeId="430020160180010" xml:id="n43002016018" ref="JHN 2:16!18" NormalizedForm="ἐμπορίου" FunctionalTag="N-GSN" FormalTag="N-GSN" Gloss="of trade" LexDomain="057016" LN="57.206" status="mapped">ἐμπορίου.</Node>
@@ -12322,9 +12322,9 @@
             <Node Id="1.78" Cat="pron" Start="22" End="22" StrongNumber="5124" UnicodeLemma="οὗτος" Unicode="τοῦτο" English="what" Number="Singular" Type="Demonstrative" morphId="43004018013" Mandarin="这" Language="G" Case="Accusative" Gender="Neuter" Ref="n43004017019" nodeId="430040180130010" xml:id="n43004018013" ref="JHN 4:18!13" NormalizedForm="τοῦτο" status="mapped" FunctionalTag="D-ASN" FormalTag="D-ASN" Gloss="this" LexDomain="092007" LN="92.29">τοῦτο</Node>
           </Node>
         </Node>
-        <Node Id="1.79" Cat="O2" Start="23" End="23" Rule="adjp2O2" Head="0" nodeId="430040180140012" Length="1">
+        <Node Id="1.79" Cat="OC" Start="23" End="23" Rule="adjp2OC" Head="0" nodeId="430040180140012" Length="1">
           <Node Id="1.80" Cat="adjp" Start="23" End="23" Rule="Adj2Adjp" Head="0" nodeId="430040180140011" Length="1">
-            <Node Id="1.81" Cat="adj" Start="23" End="23" StrongNumber="227" English="true" Case="Accusative" UnicodeLemma="ἀληθής" Unicode="ἀληθὲς" Mandarin="真" Gender="Neuter" Number="Singular" Label="OC" Language="G" morphId="43004018014" nodeId="430040180140010" xml:id="n43004018014" ref="JHN 4:18!14" NormalizedForm="ἀληθὲς" FunctionalTag="A-ASN" Type="" FormalTag="A-ASN" Gloss="truly" LexDomain="072001" LN="72.1" status="mapped">ἀληθὲς</Node>
+            <Node Id="1.81" Cat="adj" Start="23" End="23" StrongNumber="227" English="true" Case="Accusative" UnicodeLemma="ἀληθής" Unicode="ἀληθὲς" Mandarin="真" Gender="Neuter" Number="Singular" Language="G" morphId="43004018014" nodeId="430040180140010" xml:id="n43004018014" ref="JHN 4:18!14" NormalizedForm="ἀληθὲς" FunctionalTag="A-ASN" Type="" FormalTag="A-ASN" Gloss="truly" LexDomain="072001" LN="72.1" status="mapped">ἀληθὲς</Node>
           </Node>
         </Node>
         <Node Id="1.82" Cat="V" Start="24" End="24" Rule="Vp2V" Head="0" nodeId="430040180150012" Length="1">
@@ -12842,13 +12842,13 @@
               <Node Id="1.66" Cat="verb" Start="22" End="22" StrongNumber="2212" UnicodeLemma="ζητέω" Person="Third" Voice="Active" Unicode="ζητεῖ" English="seeks" Tense="Present" Number="Singular" morphId="43004023023" Mood="Indicative" Language="G" Mandarin="要" nodeId="430040230230010" xml:id="n43004023023" ref="JHN 4:23!23" NormalizedForm="ζητεῖ" FunctionalTag="V-PAI-3S" Type="" FormalTag="V-PAI-3S" Gloss="seeks" Frame="A0:n43004023021 A1:n43004023022" LexDomain="025001" LN="25.9" status="mapped">ζητεῖ</Node>
             </Node>
           </Node>
-          <Node Id="1.67" Cat="O2" Start="23" End="25" Rule="Np2O2" Head="0" nodeId="430040230240031" Length="3">
+          <Node Id="1.67" Cat="OC" Start="23" End="25" Rule="Np2OC" Head="0" nodeId="430040230240031" Length="3">
             <Node Id="1.68" Cat="np" Start="23" End="25" Rule="DetCL" Head="1" nodeId="430040230240030" Length="3">
               <Node Id="1.69" Cat="det" Start="23" End="23" StrongNumber="3588" English="these" Case="Accusative" UnicodeLemma="ὁ" Unicode="τοὺς" Mandarin="那" Gender="Masculine" Number="Plural" Language="G" morphId="43004023024" nodeId="430040230240010" xml:id="n43004023024" ref="JHN 4:23!24" NormalizedForm="τοὺς" FunctionalTag="T-APM" Type="" FormalTag="T-APM" Gloss="who" LexDomain="092004" LN="92.24" status="mapped">τοὺς</Node>
               <Node Id="1.70" Cat="CL" Start="24" End="25" Rule="V-ADV" Head="0" nodeId="430040230250020" Length="2">
                 <Node Id="1.71" Cat="V" Start="24" End="24" Rule="Vp2V" Head="0" nodeId="430040230250012" Length="1">
                   <Node Id="1.72" Cat="vp" Start="24" End="24" Rule="V2VP" Head="0" nodeId="430040230250011" Length="1">
-                    <Node Id="1.73" Cat="verb" Start="24" End="24" StrongNumber="4352" UnicodeLemma="προσκυνέω" Voice="Active" Unicode="προσκυνοῦντας" English="worship" Label="OC" Tense="Present" Number="Plural" Notes="Event (at own clause level)" morphId="43004023025" Mandarin="敬拜" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430040230250010" xml:id="n43004023025" ref="JHN 4:23!25" NormalizedForm="προσκυνοῦντας" FunctionalTag="V-PAP-APM" Type="" FormalTag="V-PAP-APM" Gloss="worship" Frame="A0:n00000000000" LexDomain="053007" LN="53.56" status="mapped">προσκυνοῦντας</Node>
+                    <Node Id="1.73" Cat="verb" Start="24" End="24" StrongNumber="4352" UnicodeLemma="προσκυνέω" Voice="Active" Unicode="προσκυνοῦντας" English="worship" Tense="Present" Number="Plural" Notes="Event (at own clause level)" morphId="43004023025" Mandarin="敬拜" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430040230250010" xml:id="n43004023025" ref="JHN 4:23!25" NormalizedForm="προσκυνοῦντας" FunctionalTag="V-PAP-APM" Type="" FormalTag="V-PAP-APM" Gloss="worship" Frame="A0:n00000000000" LexDomain="053007" LN="53.56" status="mapped">προσκυνοῦντας</Node>
                   </Node>
                 </Node>
                 <Node Id="1.74" Cat="ADV" Start="25" End="25" Rule="Np2ADV" Head="0" nodeId="430040230260012" Length="1">
@@ -14938,9 +14938,9 @@
                     </Node>
                   </Node>
                 </Node>
-                <Node Id="1.35" Cat="O2" Start="12" End="12" Rule="Np2O2" Head="0" nodeId="430040460130012" Length="1">
+                <Node Id="1.35" Cat="OC" Start="12" End="12" Rule="Np2OC" Head="0" nodeId="430040460130012" Length="1">
                   <Node Id="1.36" Cat="np" Start="12" End="12" Rule="N2NP" Head="0" nodeId="430040460130011" Length="1">
-                    <Node Id="1.37" Cat="noun" Start="12" End="12" StrongNumber="3631" UnicodeLemma="οἶνος" Unicode="οἶνον." English="wine" Label="OC" Number="Singular" Type="Common" morphId="43004046013" Mandarin="酒" Language="G" Case="Accusative" Gender="Masculine" nodeId="430040460130010" xml:id="n43004046013" ref="JHN 4:46!13" NormalizedForm="οἶνον" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="wine" LexDomain="006019" LN="6.197" status="mapped">οἶνον.</Node>
+                    <Node Id="1.37" Cat="noun" Start="12" End="12" StrongNumber="3631" UnicodeLemma="οἶνος" Unicode="οἶνον." English="wine" Number="Singular" Type="Common" morphId="43004046013" Mandarin="酒" Language="G" Case="Accusative" Gender="Masculine" nodeId="430040460130010" xml:id="n43004046013" ref="JHN 4:46!13" NormalizedForm="οἶνον" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="wine" LexDomain="006019" LN="6.197" status="mapped">οἶνον.</Node>
                   </Node>
                 </Node>
               </Node>
@@ -16162,7 +16162,7 @@
                 </Node>
                 <Node Id="1.16" Cat="V" Start="3" End="3" Rule="Vp2V" Head="0" nodeId="430050060050012" Length="1">
                   <Node Id="1.17" Cat="vp" Start="3" End="3" Rule="V2VP" Head="0" nodeId="430050060050011" Length="1">
-                    <Node Id="1.18" Cat="verb" Start="3" End="3" StrongNumber="2621" UnicodeLemma="κατάκειμαι" Voice="Middle" Unicode="κατακείμενον," English="lying" Label="OC" Tense="Present" Number="Singular" morphId="43005006005" Mandarin="躺" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430050060050010" xml:id="n43005006005" ref="JHN 5:6!5" NormalizedForm="κατακείμενον" FunctionalTag="V-PNP-ASM" Type="" FormalTag="V-PNP-ASM" Gloss="lying" Frame="A0:n43005006001" LexDomain="017007" LN="17.27" status="mapped">κατακείμενον,</Node>
+                    <Node Id="1.18" Cat="verb" Start="3" End="3" StrongNumber="2621" UnicodeLemma="κατάκειμαι" Voice="Middle" Unicode="κατακείμενον," English="lying" Tense="Present" Number="Singular" morphId="43005006005" Mandarin="躺" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" nodeId="430050060050010" xml:id="n43005006005" ref="JHN 5:6!5" NormalizedForm="κατακείμενον" FunctionalTag="V-PNP-ASM" Type="" FormalTag="V-PNP-ASM" Gloss="lying" Frame="A0:n43005006001" LexDomain="017007" LN="17.27" status="mapped">κατακείμενον,</Node>
                   </Node>
                 </Node>
               </Node>
@@ -16709,9 +16709,9 @@
                   <Node Id="1.24" Cat="pron" Start="6" End="6" StrongNumber="3165" English="me" Case="Accusative" UnicodeLemma="ἐγώ" Unicode="με" Mandarin="我" Number="Singular" Language="G" morphId="43005011007" Type="Personal" Ref="n43005010006" nodeId="430050110070010" xml:id="n43005011007" ref="JHN 5:11!7" NormalizedForm="με" status="mapped" FunctionalTag="P-1AS" FormalTag="P-1AS" Gloss="me" LexDomain="092001" LN="92.1">με</Node>
                 </Node>
               </Node>
-              <Node Id="1.25" Cat="O2" Start="7" End="7" Rule="adjp2O2" Head="0" nodeId="430050110080012" Length="1">
+              <Node Id="1.25" Cat="OC" Start="7" End="7" Rule="adjp2OC" Head="0" nodeId="430050110080012" Length="1">
                 <Node Id="1.26" Cat="adjp" Start="7" End="7" Rule="Adj2Adjp" Head="0" nodeId="430050110080011" Length="1">
-                  <Node Id="1.27" Cat="adj" Start="7" End="7" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ" Mandarin="痊愈" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43005011008" nodeId="430050110080010" xml:id="n43005011008" ref="JHN 5:11!8" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="well" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ</Node>
+                  <Node Id="1.27" Cat="adj" Start="7" End="7" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ" Mandarin="痊愈" Gender="Masculine" Number="Singular" Language="G" morphId="43005011008" nodeId="430050110080010" xml:id="n43005011008" ref="JHN 5:11!8" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="well" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ</Node>
                 </Node>
               </Node>
             </Node>
@@ -17141,9 +17141,9 @@
                     <Node Id="1.40" Cat="pron" Start="12" End="12" StrongNumber="846" UnicodeLemma="αὐτός" Unicode="αὐτὸν" English="him" Number="Singular" Type="Personal" morphId="43005015013" Mandarin="他" Language="G" Case="Accusative" Gender="Masculine" Ref="n43005015003" nodeId="430050150130010" xml:id="n43005015013" ref="JHN 5:15!13" NormalizedForm="αὐτὸν" status="mapped" FunctionalTag="P-ASM" FormalTag="P-ASM" Gloss="him" LexDomain="092004" LN="92.11">αὐτὸν</Node>
                   </Node>
                 </Node>
-                <Node Id="1.41" Cat="O2" Start="13" End="13" Rule="adjp2O2" Head="0" nodeId="430050150140012" Length="1">
+                <Node Id="1.41" Cat="OC" Start="13" End="13" Rule="adjp2OC" Head="0" nodeId="430050150140012" Length="1">
                   <Node Id="1.42" Cat="adjp" Start="13" End="13" Rule="Adj2Adjp" Head="0" nodeId="430050150140011" Length="1">
-                    <Node Id="1.43" Cat="adj" Start="13" End="13" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ." Mandarin="痊愈" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43005015014" nodeId="430050150140010" xml:id="n43005015014" ref="JHN 5:15!14" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="well" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ.</Node>
+                    <Node Id="1.43" Cat="adj" Start="13" End="13" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ." Mandarin="痊愈" Gender="Masculine" Number="Singular" Language="G" morphId="43005015014" nodeId="430050150140010" xml:id="n43005015014" ref="JHN 5:15!14" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="well" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ.</Node>
                   </Node>
                 </Node>
               </Node>
@@ -17375,14 +17375,14 @@
           </Node>
           <Node Id="1.46" Cat="conj" Start="15" End="15" StrongNumber="235" English="but" UnicodeLemma="ἀλλά" Unicode="ἀλλὰ" Mandarin="并且" Language="G" morphId="43005018016" nodeId="430050180160010" xml:id="n43005018016" ref="JHN 5:18!16" NormalizedForm="ἀλλὰ" FunctionalTag="CONJ" Type="" FormalTag="CONJ" Gloss="but" LexDomain="089023" LN="89.125" status="mapped">ἀλλὰ</Node>
           <Node Id="1.47" Cat="CL" Start="16" End="26" Rule="O2-V-O-ADV" Head="1" nodeId="430050180170110" Length="11">
-            <Node Id="1.48" Cat="O2" Start="16" End="18" Rule="Np2O2" Head="0" nodeId="430050180170031" Length="3">
+            <Node Id="1.48" Cat="OC" Start="16" End="18" Rule="Np2OC" Head="0" nodeId="430050180170031" Length="3">
               <Node Id="1.49" Cat="np" Start="16" End="18" Rule="AdvpNp" Head="1" nodeId="430050180170030" Length="3">
                 <Node Id="1.50" Cat="advp" Start="16" End="16" Rule="Adv2Advp" Head="0" nodeId="430050180170011" Length="1">
                   <Node Id="1.51" Cat="adv" Start="16" End="16" StrongNumber="2532" English="also" UnicodeLemma="καί" Unicode="καὶ" Mandarin="也" Language="G" morphId="43005018017" nodeId="430050180170010" xml:id="n43005018017" ref="JHN 5:18!17" NormalizedForm="καὶ" FunctionalTag="CONJ" Type="" FormalTag="CONJ" Gloss="also" LexDomain="089017" LN="89.93" status="mapped">καὶ</Node>
                 </Node>
                 <Node Id="1.52" Cat="np" Start="17" End="18" Rule="NpAdjp" Head="0" nodeId="430050180180020" Length="2">
                   <Node Id="1.53" Cat="np" Start="17" End="17" Rule="N2NP" Head="0" nodeId="430050180180011" Length="1">
-                    <Node Id="1.54" Cat="noun" Start="17" End="17" StrongNumber="3962" UnicodeLemma="πατήρ" Unicode="πατέρα" English="father" Label="OC" Number="Singular" Type="Common" morphId="43005018018" Mandarin="父" Language="G" Case="Accusative" Gender="Masculine" nodeId="430050180180010" xml:id="n43005018018" ref="JHN 5:18!18" NormalizedForm="πατέρα" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="Father" LexDomain="012001" LN="12.12" status="mapped">πατέρα</Node>
+                    <Node Id="1.54" Cat="noun" Start="17" End="17" StrongNumber="3962" UnicodeLemma="πατήρ" Unicode="πατέρα" English="father" Number="Singular" Type="Common" morphId="43005018018" Mandarin="父" Language="G" Case="Accusative" Gender="Masculine" nodeId="430050180180010" xml:id="n43005018018" ref="JHN 5:18!18" NormalizedForm="πατέρα" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="Father" LexDomain="012001" LN="12.12" status="mapped">πατέρα</Node>
                   </Node>
                   <Node Id="1.55" Cat="adjp" Start="18" End="18" Rule="Adj2Adjp" Head="0" nodeId="430050180190011" Length="1">
                     <Node Id="1.56" Cat="adj" Start="18" End="18" StrongNumber="2398" English="his own" Case="Accusative" UnicodeLemma="ἴδιος" Unicode="ἴδιον" Mandarin="自己" Gender="Masculine" Number="Singular" Language="G" morphId="43005018019" Ref="n43005016008" nodeId="430050180190010" xml:id="n43005018019" ref="JHN 5:18!19" NormalizedForm="ἴδιον" status="mapped" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="His own" LexDomain="058007" LN="58.47">ἴδιον</Node>
@@ -17405,9 +17405,9 @@
             </Node>
             <Node Id="1.65" Cat="ADV" Start="22" End="26" Rule="CL2ADV" Head="0" nodeId="430050180230051" Length="5">
               <Node Id="1.66" Cat="CL" Start="22" End="26" Rule="O2-O-V-ADV" Head="2" nodeId="430050180230050" Length="5">
-                <Node Id="1.67" Cat="O2" Start="22" End="22" Rule="adjp2O2" Head="0" nodeId="430050180230012" Length="1">
+                <Node Id="1.67" Cat="OC" Start="22" End="22" Rule="adjp2OC" Head="0" nodeId="430050180230012" Length="1">
                   <Node Id="1.68" Cat="adjp" Start="22" End="22" Rule="Adj2Adjp" Head="0" nodeId="430050180230011" Length="1">
-                    <Node Id="1.69" Cat="adj" Start="22" End="22" StrongNumber="2470" English="equal" Case="Accusative" UnicodeLemma="ἴσος" Unicode="ἴσον" Mandarin="平等" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43005018023" nodeId="430050180230010" xml:id="n43005018023" ref="JHN 5:18!23" NormalizedForm="ἴσον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="equal" LexDomain="058005" LN="58.33" status="mapped">ἴσον</Node>
+                    <Node Id="1.69" Cat="adj" Start="22" End="22" StrongNumber="2470" English="equal" Case="Accusative" UnicodeLemma="ἴσος" Unicode="ἴσον" Mandarin="平等" Gender="Masculine" Number="Singular" Language="G" morphId="43005018023" nodeId="430050180230010" xml:id="n43005018023" ref="JHN 5:18!23" NormalizedForm="ἴσον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="equal" LexDomain="058005" LN="58.33" status="mapped">ἴσον</Node>
                   </Node>
                 </Node>
                 <Node Id="1.70" Cat="O" Start="23" End="23" Rule="Np2O" Head="0" nodeId="430050180240012" Length="1">
@@ -19233,7 +19233,7 @@
             <Node Id="1.17" Cat="np" Start="5" End="7" Rule="Adj2NP" Head="0" nodeId="430050360060031" Length="3">
               <Node Id="1.18" Cat="adjp" Start="5" End="7" Rule="AdjpAdvp" Head="0" nodeId="430050360060030" Length="3">
                 <Node Id="1.19" Cat="adjp" Start="5" End="5" Rule="Adj2Adjp" Head="0" nodeId="430050360060011" Length="1">
-                  <Node Id="1.20" Cat="adj" Start="5" End="5" StrongNumber="3187" UnicodeLemma="μέγας" Unicode="μείζω" English="greater" Label="OC" Number="Plural" Degree="Comparative" morphId="43005036006" Mandarin="更大" Language="G" Case="Accusative" Gender="Neuter" nodeId="430050360060010" xml:id="n43005036006" ref="JHN 5:36!6" NormalizedForm="μείζω" FunctionalTag="A-ASF-C" Type="" FormalTag="A-ASF-C" Gloss="greater than" LexDomain="087003" LN="87.28" status="mapped">μείζω</Node>
+                  <Node Id="1.20" Cat="adj" Start="5" End="5" StrongNumber="3187" UnicodeLemma="μέγας" Unicode="μείζω" English="greater" Number="Plural" Degree="Comparative" morphId="43005036006" Mandarin="更大" Language="G" Case="Accusative" Gender="Neuter" nodeId="430050360060010" xml:id="n43005036006" ref="JHN 5:36!6" NormalizedForm="μείζω" FunctionalTag="A-ASF-C" Type="" FormalTag="A-ASF-C" Gloss="greater than" LexDomain="087003" LN="87.28" status="mapped">μείζω</Node>
                 </Node>
                 <Node Id="1.21" Cat="advp" Start="6" End="7" Rule="np2advp" Head="0" HasDet="True" nodeId="430050360070021" Length="2">
                   <Node Id="1.22" Cat="np" Start="6" End="7" Rule="DetNP" Head="1" HasDet="True" nodeId="430050360070020" Length="2">
@@ -29240,9 +29240,9 @@
               </Node>
             </Node>
           </Node>
-          <Node Id="1.54" Cat="O2" Start="17" End="17" Rule="adjp2O2" Head="0" nodeId="430070230180012" Length="1">
+          <Node Id="1.54" Cat="OC" Start="17" End="17" Rule="adjp2OC" Head="0" nodeId="430070230180012" Length="1">
             <Node Id="1.55" Cat="adjp" Start="17" End="17" Rule="Adj2Adjp" Head="0" nodeId="430070230180011" Length="1">
-              <Node Id="1.56" Cat="adj" Start="17" End="17" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ" Mandarin="康健" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43007023018" nodeId="430070230180010" xml:id="n43007023018" ref="JHN 7:23!18" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="sound" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ</Node>
+              <Node Id="1.56" Cat="adj" Start="17" End="17" StrongNumber="5199" English="well" Case="Accusative" UnicodeLemma="ὑγιής" Unicode="ὑγιῆ" Mandarin="康健" Gender="Masculine" Number="Singular" Language="G" morphId="43007023018" nodeId="430070230180010" xml:id="n43007023018" ref="JHN 7:23!18" NormalizedForm="ὑγιῆ" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="sound" LexDomain="023008" LN="23.129" status="mapped">ὑγιῆ</Node>
             </Node>
           </Node>
           <Node Id="1.57" Cat="V" Start="18" End="18" Rule="Vp2V" Head="0" nodeId="430070230190012" Length="1">
@@ -35035,9 +35035,9 @@
               <Node Id="1.33" Cat="pron" Start="9" End="9" StrongNumber="3165" English="me" Case="Accusative" UnicodeLemma="ἐγώ" Unicode="με" Mandarin="我" Number="Singular" Language="G" morphId="43008029010" Type="Personal" Ref="n43008028004" nodeId="430080290100010" xml:id="n43008029010" ref="JHN 8:29!10" NormalizedForm="με" status="mapped" FunctionalTag="P-1AS" FormalTag="P-1AS" Gloss="Me" LexDomain="092001" LN="92.1">με</Node>
             </Node>
           </Node>
-          <Node Id="1.34" Cat="O2" Start="10" End="10" Rule="adjp2O2" Head="0" nodeId="430080290110012" Length="1">
+          <Node Id="1.34" Cat="OC" Start="10" End="10" Rule="adjp2OC" Head="0" nodeId="430080290110012" Length="1">
             <Node Id="1.35" Cat="adjp" Start="10" End="10" Rule="Adj2Adjp" Head="0" nodeId="430080290110011" Length="1">
-              <Node Id="1.36" Cat="adj" Start="10" End="10" StrongNumber="3441" English="alone" Case="Accusative" UnicodeLemma="μόνος" Unicode="μόνον," Mandarin="独自" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43008029011" nodeId="430080290110010" xml:id="n43008029011" ref="JHN 8:29!11" NormalizedForm="μόνον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="alone" LexDomain="058007" LN="58.51" status="mapped">μόνον,</Node>
+              <Node Id="1.36" Cat="adj" Start="10" End="10" StrongNumber="3441" English="alone" Case="Accusative" UnicodeLemma="μόνος" Unicode="μόνον," Mandarin="独自" Gender="Masculine" Number="Singular" Language="G" morphId="43008029011" nodeId="430080290110010" xml:id="n43008029011" ref="JHN 8:29!11" NormalizedForm="μόνον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="alone" LexDomain="058007" LN="58.51" status="mapped">μόνον,</Node>
             </Node>
           </Node>
         </Node>
@@ -37575,9 +37575,9 @@
 <Tree>
 <Node Cat="S" Head="0" nodeId="430080530150031" Length="3">
   <Node Id="1.1" Cat="CL" Start="0" End="2" Rule="O2-O-V" Head="2" nodeId="430080530150030" Length="3">
-    <Node Id="1.2" Cat="O2" Start="0" End="0" Rule="Np2O2" Head="0" nodeId="430080530150012" Length="1">
+    <Node Id="1.2" Cat="OC" Start="0" End="0" Rule="Np2OC" Head="0" nodeId="430080530150012" Length="1">
       <Node Id="1.3" Cat="np" Start="0" End="0" Rule="Pron2NP" Head="0" nodeId="430080530150011" Length="1">
-        <Node Id="1.4" Cat="pron" Start="0" End="0" StrongNumber="5101" UnicodeLemma="τίς" Unicode="τίνα" English="who" Label="OC" Number="Singular" Type="Interrogative" morphId="43008053015" Mandarin="什么" Language="G" Case="Accusative" Gender="Masculine" nodeId="430080530150010" xml:id="n43008053015" ref="JHN 8:53!15" NormalizedForm="τίνα" FunctionalTag="I-ASM" FormalTag="I-ASM" Gloss="Whom" LexDomain="092004" LN="92.14" status="mapped">τίνα</Node>
+        <Node Id="1.4" Cat="pron" Start="0" End="0" StrongNumber="5101" UnicodeLemma="τίς" Unicode="τίνα" English="who" Number="Singular" Type="Interrogative" morphId="43008053015" Mandarin="什么" Language="G" Case="Accusative" Gender="Masculine" nodeId="430080530150010" xml:id="n43008053015" ref="JHN 8:53!15" NormalizedForm="τίνα" FunctionalTag="I-ASM" FormalTag="I-ASM" Gloss="Whom" LexDomain="092004" LN="92.14" status="mapped">τίνα</Node>
       </Node>
     </Node>
     <Node Id="1.5" Cat="O" Start="1" End="1" Rule="Np2O" Head="0" nodeId="430080530160012" Length="1">
@@ -40493,9 +40493,9 @@
                     <Node Id="1.58" Cat="verb" Start="18" End="18" StrongNumber="3670" UnicodeLemma="ὁμολογέω" Person="Third" Voice="Active" Unicode="ὁμολογήσῃ" English="confessed" Tense="Aorist" Number="Singular" morphId="43009022019" Mood="Subjunctive" Language="G" Mandarin="承认" nodeId="430090220190010" xml:id="n43009022019" ref="JHN 9:22!19" NormalizedForm="ὁμολογήσῃ" FunctionalTag="V-AAS-3S" Type="" FormalTag="V-AAS-3S" Gloss="should confess" Frame="A0:n43009022017 A1:n43009022018" LexDomain="033021" LN="33.274" status="mapped">ὁμολογήσῃ</Node>
                   </Node>
                 </Node>
-                <Node Id="1.59" Cat="O2" Start="19" End="19" Rule="Np2O2" Head="0" nodeId="430090220200012" Length="1">
+                <Node Id="1.59" Cat="OC" Start="19" End="19" Rule="Np2OC" Head="0" nodeId="430090220200012" Length="1">
                   <Node Id="1.60" Cat="np" Start="19" End="19" Rule="N2NP" Head="0" nodeId="430090220200011" Length="1">
-                    <Node Id="1.61" Cat="noun" Start="19" End="19" StrongNumber="5547" UnicodeLemma="Χριστός" Unicode="χριστόν," English="Christ" Label="OC" Number="Singular" Type="Proper" morphId="43009022020" Mandarin="基督" Language="G" Case="Accusative" Gender="Masculine" nodeId="430090220200010" xml:id="n43009022020" ref="JHN 9:22!20" NormalizedForm="χριστόν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="Christ" LexDomain="053009" LN="53.82" status="mapped">χριστόν,</Node>
+                    <Node Id="1.61" Cat="noun" Start="19" End="19" StrongNumber="5547" UnicodeLemma="Χριστός" Unicode="χριστόν," English="Christ" Number="Singular" Type="Proper" morphId="43009022020" Mandarin="基督" Language="G" Case="Accusative" Gender="Masculine" nodeId="430090220200010" xml:id="n43009022020" ref="JHN 9:22!20" NormalizedForm="χριστόν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="Christ" LexDomain="053009" LN="53.82" status="mapped">χριστόν,</Node>
                   </Node>
                 </Node>
               </Node>
@@ -45369,9 +45369,9 @@
               <Node Id="1.61" Cat="pron" Start="19" End="19" StrongNumber="4572" UnicodeLemma="σεαυτοῦ" Unicode="σεαυτὸν" English="yourself" Number="Singular" Type="Personal" morphId="43010033020" Mandarin="自己" Language="G" Case="Accusative" Gender="Masculine" Ref="n43010032004" nodeId="430100330200010" xml:id="n43010033020" ref="JHN 10:33!20" NormalizedForm="σεαυτὸν" status="mapped" FunctionalTag="F-2ASM" FormalTag="F-2ASM" Gloss="yourself" LexDomain="092003" LN="92.10">σεαυτὸν</Node>
             </Node>
           </Node>
-          <Node Id="1.62" Cat="O2" Start="20" End="20" Rule="Np2O2" Head="0" nodeId="430100330210012" Length="1">
+          <Node Id="1.62" Cat="OC" Start="20" End="20" Rule="Np2OC" Head="0" nodeId="430100330210012" Length="1">
             <Node Id="1.63" Cat="np" Start="20" End="20" Rule="N2NP" Head="0" nodeId="430100330210011" Length="1">
-              <Node Id="1.64" Cat="noun" Start="20" End="20" StrongNumber="2316" UnicodeLemma="θεός" Unicode="θεόν." English="God" Label="OC" Number="Singular" Type="Common" morphId="43010033021" Mandarin="神" Language="G" Case="Accusative" Gender="Masculine" nodeId="430100330210010" xml:id="n43010033021" ref="JHN 10:33!21" NormalizedForm="θεόν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="God" LexDomain="012001" LN="12.1" status="mapped">θεόν.</Node>
+              <Node Id="1.64" Cat="noun" Start="20" End="20" StrongNumber="2316" UnicodeLemma="θεός" Unicode="θεόν." English="God" Number="Singular" Type="Common" morphId="43010033021" Mandarin="神" Language="G" Case="Accusative" Gender="Masculine" nodeId="430100330210010" xml:id="n43010033021" ref="JHN 10:33!21" NormalizedForm="θεόν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="God" LexDomain="012001" LN="12.1" status="mapped">θεόν.</Node>
             </Node>
           </Node>
         </Node>
@@ -45492,9 +45492,9 @@
                 <Node Id="1.12" Cat="verb" Start="2" End="2" StrongNumber="2036" UnicodeLemma="λέγω" Person="Third" Voice="Active" Unicode="εἶπεν" English="called" Tense="Aorist" Number="Singular" morphId="43010035003" Mood="Indicative" Language="G" Mandarin="称~为" SubjRef="n43010035010" nodeId="430100350030010" xml:id="n43010035003" ref="JHN 10:35!3" NormalizedForm="εἶπεν" status="mapped" FunctionalTag="V-2AAI-3S" Type="" FormalTag="V-2AAI-3S" Gloss="he called" Frame="A0:n43010035010 A1:n43010035002" LexDomain="033009" LN="33.131">εἶπεν</Node>
               </Node>
             </Node>
-            <Node Id="1.13" Cat="O2" Start="3" End="3" Rule="Np2O2" Head="0" nodeId="430100350040012" Length="1">
+            <Node Id="1.13" Cat="OC" Start="3" End="3" Rule="Np2OC" Head="0" nodeId="430100350040012" Length="1">
               <Node Id="1.14" Cat="np" Start="3" End="3" Rule="N2NP" Head="0" nodeId="430100350040011" Length="1">
-                <Node Id="1.15" Cat="noun" Start="3" End="3" StrongNumber="2316" UnicodeLemma="θεός" Unicode="θεοὺς" English="gods" Label="OC" Number="Plural" Type="Common" morphId="43010035004" Mandarin="神" Language="G" Case="Accusative" Gender="Masculine" nodeId="430100350040010" xml:id="n43010035004" ref="JHN 10:35!4" NormalizedForm="θεοὺς" FunctionalTag="N-APM" FormalTag="N-APM" Gloss="gods" LexDomain="012001" LN="12.22" status="mapped">θεοὺς</Node>
+                <Node Id="1.15" Cat="noun" Start="3" End="3" StrongNumber="2316" UnicodeLemma="θεός" Unicode="θεοὺς" English="gods" Number="Plural" Type="Common" morphId="43010035004" Mandarin="神" Language="G" Case="Accusative" Gender="Masculine" nodeId="430100350040010" xml:id="n43010035004" ref="JHN 10:35!4" NormalizedForm="θεοὺς" FunctionalTag="N-APM" FormalTag="N-APM" Gloss="gods" LexDomain="012001" LN="12.22" status="mapped">θεοὺς</Node>
               </Node>
             </Node>
           </Node>
@@ -61928,10 +61928,10 @@
           <Node Id="1.11" Cat="pron" Start="2" End="2" StrongNumber="5209" English="you" Case="Accusative" UnicodeLemma="σύ" Unicode="ὑμᾶς" Mandarin="你们" Number="Plural" Language="G" morphId="43014018003" Type="Personal" Ref="n43013023006 n43014009014 n43014005003 n43013037004" nodeId="430140180030010" xml:id="n43014018003" ref="JHN 14:18!3" NormalizedForm="ὑμᾶς" status="mapped" FunctionalTag="P-2AP" FormalTag="P-2AP" Gloss="you" LexDomain="092003" LN="92.7">ὑμᾶς</Node>
         </Node>
       </Node>
-      <Node Id="1.12" Cat="O2" Start="3" End="3" Rule="Np2O2" Head="0" nodeId="430140180040013" Length="1">
+      <Node Id="1.12" Cat="OC" Start="3" End="3" Rule="Np2OC" Head="0" nodeId="430140180040013" Length="1">
         <Node Id="1.13" Cat="np" Start="3" End="3" Rule="Adj2NP" Head="0" nodeId="430140180040012" Length="1">
           <Node Id="1.14" Cat="adjp" Start="3" End="3" Rule="Adj2Adjp" Head="0" nodeId="430140180040011" Length="1">
-            <Node Id="1.15" Cat="adj" Start="3" End="3" StrongNumber="3737" English="orphans" Case="Accusative" UnicodeLemma="ὀρφανός" Unicode="ὀρφανούς," Mandarin="孤儿" Gender="Masculine" Number="Plural" Label="OC" Language="G" morphId="43014018004" nodeId="430140180040010" xml:id="n43014018004" ref="JHN 14:18!4" NormalizedForm="ὀρφανούς" Type="Substantive" FunctionalTag="A-APM" FormalTag="A-APM" Gloss="as orphans" LexDomain="034001" LN="34.21" status="mapped">ὀρφανούς,</Node>
+            <Node Id="1.15" Cat="adj" Start="3" End="3" StrongNumber="3737" English="orphans" Case="Accusative" UnicodeLemma="ὀρφανός" Unicode="ὀρφανούς," Mandarin="孤儿" Gender="Masculine" Number="Plural" Language="G" morphId="43014018004" nodeId="430140180040010" xml:id="n43014018004" ref="JHN 14:18!4" NormalizedForm="ὀρφανούς" Type="Substantive" FunctionalTag="A-APM" FormalTag="A-APM" Gloss="as orphans" LexDomain="034001" LN="34.21" status="mapped">ὀρφανούς,</Node>
           </Node>
         </Node>
       </Node>
@@ -64882,9 +64882,9 @@
           <Node Id="1.11" Cat="pron" Start="2" End="2" StrongNumber="5209" English="you" Case="Accusative" UnicodeLemma="σύ" Unicode="ὑμᾶς" Mandarin="你们" Number="Plural" Language="G" morphId="43015015003" Type="Personal" Ref="n43013023006 n43013037004 n43014005003 n43014008003 n43014022003" nodeId="430150150030010" xml:id="n43015015003" ref="JHN 15:15!3" NormalizedForm="ὑμᾶς" status="mapped" FunctionalTag="P-2AP" FormalTag="P-2AP" Gloss="you" LexDomain="092003" LN="92.7">ὑμᾶς</Node>
         </Node>
       </Node>
-      <Node Id="1.12" Cat="O2" Start="3" End="3" Rule="Np2O2" Head="0" nodeId="430150150040012" Length="1">
+      <Node Id="1.12" Cat="OC" Start="3" End="3" Rule="Np2OC" Head="0" nodeId="430150150040012" Length="1">
         <Node Id="1.13" Cat="np" Start="3" End="3" Rule="N2NP" Head="0" nodeId="430150150040011" Length="1">
-          <Node Id="1.14" Cat="noun" Start="3" End="3" StrongNumber="1401" UnicodeLemma="δοῦλος" Unicode="δούλους," English="servants" Label="OC" Number="Plural" Type="Common" morphId="43015015004" Mandarin="仆人" Language="G" Case="Accusative" Gender="Masculine" nodeId="430150150040010" xml:id="n43015015004" ref="JHN 15:15!4" NormalizedForm="δούλους" FunctionalTag="N-APM" FormalTag="N-APM" Gloss="servants" LexDomain="087005" LN="87.76" status="mapped">δούλους,</Node>
+          <Node Id="1.14" Cat="noun" Start="3" End="3" StrongNumber="1401" UnicodeLemma="δοῦλος" Unicode="δούλους," English="servants" Number="Plural" Type="Common" morphId="43015015004" Mandarin="仆人" Language="G" Case="Accusative" Gender="Masculine" nodeId="430150150040010" xml:id="n43015015004" ref="JHN 15:15!4" NormalizedForm="δούλους" FunctionalTag="N-APM" FormalTag="N-APM" Gloss="servants" LexDomain="087005" LN="87.76" status="mapped">δούλους,</Node>
         </Node>
       </Node>
     </Node>
@@ -64961,10 +64961,10 @@
             <Node Id="1.10" Cat="verb" Start="2" End="2" StrongNumber="2046" UnicodeLemma="λέγω" Person="First" Voice="Active" Unicode="εἴρηκα" English="called" Tense="Perfect" Number="Singular" morphId="43015015017" Mood="Indicative" Language="G" Mandarin="称~为" SubjRef="n43014023002" nodeId="430150150170010" xml:id="n43015015017" ref="JHN 15:15!17" NormalizedForm="εἴρηκα" status="mapped" FunctionalTag="V-RAI-1S-ATT" Type="" FormalTag="V-RAI-1S-ATT" Gloss="I have called" Frame="A0:n43014023002 A1:n43015015015" LexDomain="033009" LN="33.131">εἴρηκα</Node>
           </Node>
         </Node>
-        <Node Id="1.11" Cat="O2" Start="3" End="3" Rule="Np2O2" Head="0" nodeId="430150150180013" Length="1">
+        <Node Id="1.11" Cat="OC" Start="3" End="3" Rule="Np2OC" Head="0" nodeId="430150150180013" Length="1">
           <Node Id="1.12" Cat="np" Start="3" End="3" Rule="Adj2NP" Head="0" nodeId="430150150180012" Length="1">
             <Node Id="1.13" Cat="adjp" Start="3" End="3" Rule="Adj2Adjp" Head="0" nodeId="430150150180011" Length="1">
-              <Node Id="1.14" Cat="adj" Start="3" End="3" StrongNumber="5384" English="friends" Case="Accusative" UnicodeLemma="φίλος" Unicode="φίλους," Mandarin="朋友" Gender="Masculine" Number="Plural" Label="OC" Language="G" morphId="43015015018" nodeId="430150150180010" xml:id="n43015015018" ref="JHN 15:15!18" NormalizedForm="φίλους" Type="Substantive" FunctionalTag="A-APM" FormalTag="A-APM" Gloss="friends" LexDomain="034001" LN="34.11" status="mapped">φίλους,</Node>
+              <Node Id="1.14" Cat="adj" Start="3" End="3" StrongNumber="5384" English="friends" Case="Accusative" UnicodeLemma="φίλος" Unicode="φίλους," Mandarin="朋友" Gender="Masculine" Number="Plural" Language="G" morphId="43015015018" nodeId="430150150180010" xml:id="n43015015018" ref="JHN 15:15!18" NormalizedForm="φίλους" Type="Substantive" FunctionalTag="A-APM" FormalTag="A-APM" Gloss="friends" LexDomain="034001" LN="34.11" status="mapped">φίλους,</Node>
             </Node>
           </Node>
         </Node>
@@ -66339,9 +66339,9 @@
 <Tree>
 <Node Cat="S" Head="0" nodeId="430160020010031" Length="3">
   <Node Id="1.1" Cat="CL" Start="0" End="2" Rule="O2-V-O" Head="1" nodeId="430160020010030" Length="3">
-    <Node Id="1.2" Cat="O2" Start="0" End="0" Rule="adjp2O2" Head="0" nodeId="430160020010012" Length="1">
+    <Node Id="1.2" Cat="OC" Start="0" End="0" Rule="adjp2OC" Head="0" nodeId="430160020010012" Length="1">
       <Node Id="1.3" Cat="adjp" Start="0" End="0" Rule="Adj2Adjp" Head="0" nodeId="430160020010011" Length="1">
-        <Node Id="1.4" Cat="adj" Start="0" End="0" StrongNumber="656" English="out of the synagogues" Case="Accusative" UnicodeLemma="ἀποσυνάγωγος" Unicode="ἀποσυναγώγους" Mandarin="赶出会堂" Gender="Masculine" Number="Plural" Label="OC" Language="G" morphId="43016002001" nodeId="430160020010010" xml:id="n43016002001" ref="JHN 16:2!1" NormalizedForm="ἀποσυναγώγους" FunctionalTag="A-APM" Type="" FormalTag="A-APM" Gloss="Out of the synagogues" LexDomain="011002" LN="11.46" status="mapped">ἀποσυναγώγους</Node>
+        <Node Id="1.4" Cat="adj" Start="0" End="0" StrongNumber="656" English="out of the synagogues" Case="Accusative" UnicodeLemma="ἀποσυνάγωγος" Unicode="ἀποσυναγώγους" Mandarin="赶出会堂" Gender="Masculine" Number="Plural" Language="G" morphId="43016002001" nodeId="430160020010010" xml:id="n43016002001" ref="JHN 16:2!1" NormalizedForm="ἀποσυναγώγους" FunctionalTag="A-APM" Type="" FormalTag="A-APM" Gloss="Out of the synagogues" LexDomain="011002" LN="11.46" status="mapped">ἀποσυναγώγους</Node>
       </Node>
     </Node>
     <Node Id="1.5" Cat="V" Start="1" End="1" Rule="Vp2V" Head="0" nodeId="430160020020012" Length="1">
@@ -69354,9 +69354,9 @@
                 <Node Id="1.40" Cat="pron" Start="11" End="11" StrongNumber="2504" English="and ~ me" Case="Accusative" UnicodeLemma="κἀγώ" Unicode="κἀμὲ" Mandarin="我" Number="Singular" Language="G" morphId="43016032012" Type="Personal" Ref="n43016031003" nodeId="430160320120010" xml:id="n43016032012" ref="JHN 16:32!12" NormalizedForm="κἀμὲ" status="mapped" FunctionalTag="P-1AS-K" FormalTag="P-1AS-K" Gloss="and I" LexDomain="089017 092001" LN="89.92 92.1">κἀμὲ</Node>
               </Node>
             </Node>
-            <Node Id="1.41" Cat="O2" Start="12" End="12" Rule="adjp2O2" Head="0" nodeId="430160320130012" Length="1">
+            <Node Id="1.41" Cat="OC" Start="12" End="12" Rule="adjp2OC" Head="0" nodeId="430160320130012" Length="1">
               <Node Id="1.42" Cat="adjp" Start="12" End="12" Rule="Adj2Adjp" Head="0" nodeId="430160320130011" Length="1">
-                <Node Id="1.43" Cat="adj" Start="12" End="12" StrongNumber="3441" English="alone" Case="Accusative" UnicodeLemma="μόνος" Unicode="μόνον" Mandarin="独自一人" Gender="Masculine" Number="Singular" Label="OC" Language="G" morphId="43016032013" nodeId="430160320130010" xml:id="n43016032013" ref="JHN 16:32!13" NormalizedForm="μόνον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="alone" LexDomain="058007" LN="58.51" status="mapped">μόνον</Node>
+                <Node Id="1.43" Cat="adj" Start="12" End="12" StrongNumber="3441" English="alone" Case="Accusative" UnicodeLemma="μόνος" Unicode="μόνον" Mandarin="独自一人" Gender="Masculine" Number="Singular" Language="G" morphId="43016032013" nodeId="430160320130010" xml:id="n43016032013" ref="JHN 16:32!13" NormalizedForm="μόνον" FunctionalTag="A-ASM" Type="" FormalTag="A-ASM" Gloss="alone" LexDomain="058007" LN="58.51" status="mapped">μόνον</Node>
               </Node>
             </Node>
             <Node Id="1.44" Cat="V" Start="13" End="13" Rule="Vp2V" Head="0" nodeId="430160320140012" Length="1">
@@ -74685,12 +74685,12 @@
           </Node>
         </Node>
       </Node>
-      <Node Id="1.15" Cat="O2" Start="5" End="5" Rule="adjp2O2" Head="0" nodeId="430180240060015" Length="1">
+      <Node Id="1.15" Cat="OC" Start="5" End="5" Rule="adjp2OC" Head="0" nodeId="430180240060015" Length="1">
         <Node Id="1.16" Cat="adjp" Start="5" End="5" Rule="CL2Adjp" Head="0" nodeId="430180240060014" Length="1">
           <Node Id="1.17" Cat="CL" Start="5" End="5" Rule="V2CL" Head="0" nodeId="430180240060013" Length="1">
             <Node Id="1.18" Cat="V" Start="5" End="5" Rule="Vp2V" Head="0" nodeId="430180240060012" Length="1">
               <Node Id="1.19" Cat="vp" Start="5" End="5" Rule="V2VP" Head="0" nodeId="430180240060011" Length="1">
-                <Node Id="1.20" Cat="verb" Start="5" End="5" StrongNumber="1210" UnicodeLemma="δέω" Voice="Passive" Unicode="δεδεμένον" English="bound" Label="OC" Tense="Perfect" Number="Singular" Notes="State (at own clause level)" morphId="43018024006" Mandarin="绑" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" SubjRef="n43018023003" nodeId="430180240060010" xml:id="n43018024006" ref="JHN 18:24!6" NormalizedForm="δεδεμένον" status="mapped" FunctionalTag="V-RPP-ASM" Type="" FormalTag="V-REP-ASM" Gloss="bound" Frame="A1:n43018023003" LexDomain="037008" LN="37.114">δεδεμένον</Node>
+                <Node Id="1.20" Cat="verb" Start="5" End="5" StrongNumber="1210" UnicodeLemma="δέω" Voice="Passive" Unicode="δεδεμένον" English="bound" Tense="Perfect" Number="Singular" Notes="State (at own clause level)" morphId="43018024006" Mandarin="绑" Mood="Participle" Language="G" Case="Accusative" Gender="Masculine" SubjRef="n43018023003" nodeId="430180240060010" xml:id="n43018024006" ref="JHN 18:24!6" NormalizedForm="δεδεμένον" status="mapped" FunctionalTag="V-RPP-ASM" Type="" FormalTag="V-REP-ASM" Gloss="bound" Frame="A1:n43018023003" LexDomain="037008" LN="37.114">δεδεμένον</Node>
               </Node>
             </Node>
           </Node>
@@ -77353,10 +77353,10 @@
         <Node Id="1.43" Cat="CL" Start="13" End="17" Rule="sub-CL" Head="1" nodeId="430190070140050" Length="5">
           <Node Id="1.44" Cat="conj" Start="13" End="13" StrongNumber="3754" English="because" UnicodeLemma="ὅτι" Unicode="ὅτι" Mandarin="因为" Language="G" morphId="43019007014" nodeId="430190070140010" xml:id="n43019007014" ref="JHN 19:7!14" NormalizedForm="ὅτι" FunctionalTag="CONJ" Type="" FormalTag="CONJ" Gloss="because" LexDomain="089007" LN="89.33" status="mapped">ὅτι</Node>
           <Node Id="1.45" Cat="CL" Start="14" End="17" Rule="O2-O-V" Head="2" nodeId="430190070150040" Length="4">
-            <Node Id="1.46" Cat="O2" Start="14" End="15" Rule="Np2O2" Head="0" nodeId="430190070150021" Length="2">
+            <Node Id="1.46" Cat="OC" Start="14" End="15" Rule="Np2OC" Head="0" nodeId="430190070150021" Length="2">
               <Node Id="1.47" Cat="np" Start="14" End="15" Rule="NPofNP" Head="0" nodeId="430190070150020" Length="2">
                 <Node Id="1.48" Cat="np" Start="14" End="14" Rule="N2NP" Head="0" nodeId="430190070150011" Length="1">
-                  <Node Id="1.49" Cat="noun" Start="14" End="14" StrongNumber="5207" UnicodeLemma="υἱός" Unicode="υἱὸν" English="son" Label="OC" Number="Singular" Type="Common" morphId="43019007015" Mandarin="儿子" Language="G" Case="Accusative" Gender="Masculine" nodeId="430190070150010" xml:id="n43019007015" ref="JHN 19:7!15" NormalizedForm="υἱὸν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="[the] Son" LexDomain="012001" LN="12.15" status="mapped">υἱὸν</Node>
+                  <Node Id="1.49" Cat="noun" Start="14" End="14" StrongNumber="5207" UnicodeLemma="υἱός" Unicode="υἱὸν" English="son" Number="Singular" Type="Common" morphId="43019007015" Mandarin="儿子" Language="G" Case="Accusative" Gender="Masculine" nodeId="430190070150010" xml:id="n43019007015" ref="JHN 19:7!15" NormalizedForm="υἱὸν" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="[the] Son" LexDomain="012001" LN="12.15" status="mapped">υἱὸν</Node>
                 </Node>
                 <Node Id="1.50" Cat="np" Start="15" End="15" Rule="N2NP" Head="0" nodeId="430190070160011" Length="1">
                   <Node Id="1.51" Cat="noun" Start="15" End="15" StrongNumber="2316" UnicodeLemma="θεός" Unicode="θεοῦ" English="God" Number="Singular" Type="Common" morphId="43019007016" Mandarin="神" Language="G" Case="Genitive" Gender="Masculine" nodeId="430190070160010" xml:id="n43019007016" ref="JHN 19:7!16" NormalizedForm="θεοῦ" FunctionalTag="N-GSM" FormalTag="N-GSM" Gloss="of God" LexDomain="012001" LN="12.15" status="mapped">θεοῦ</Node>
@@ -77926,9 +77926,9 @@
                   <Node Id="1.50" Cat="np" Start="14" End="17" Rule="DetCL" Head="1" nodeId="430190120220040" Length="4">
                     <Node Id="1.51" Cat="det" Start="14" End="14" StrongNumber="3588" English="who" Case="Nominative" UnicodeLemma="ὁ" Unicode="ὁ" Mandarin="人" Gender="Masculine" Number="Singular" Language="G" morphId="43019012022" nodeId="430190120220010" xml:id="n43019012022" ref="JHN 19:12!22" NormalizedForm="ὁ" FunctionalTag="T-NSM" Type="" FormalTag="T-NSM" Gloss="-" LexDomain="092004" LN="92.24" status="mapped">ὁ</Node>
                     <Node Id="1.52" Cat="CL" Start="15" End="17" Rule="O2-O-V" Head="2" nodeId="430190120230030" Length="3">
-                      <Node Id="1.53" Cat="O2" Start="15" End="15" Rule="Np2O2" Head="0" nodeId="430190120230012" Length="1">
+                      <Node Id="1.53" Cat="OC" Start="15" End="15" Rule="Np2OC" Head="0" nodeId="430190120230012" Length="1">
                         <Node Id="1.54" Cat="np" Start="15" End="15" Rule="N2NP" Head="0" nodeId="430190120230011" Length="1">
-                          <Node Id="1.55" Cat="noun" Start="15" End="15" StrongNumber="935" UnicodeLemma="βασιλεύς" Unicode="βασιλέα" English="king" Label="OC" Number="Singular" Type="Common" morphId="43019012023" Mandarin="王" Language="G" Case="Accusative" Gender="Masculine" nodeId="430190120230010" xml:id="n43019012023" ref="JHN 19:12!23" NormalizedForm="βασιλέα" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="a king" LexDomain="037004" LN="37.67" status="mapped">βασιλέα</Node>
+                          <Node Id="1.55" Cat="noun" Start="15" End="15" StrongNumber="935" UnicodeLemma="βασιλεύς" Unicode="βασιλέα" English="king" Number="Singular" Type="Common" morphId="43019012023" Mandarin="王" Language="G" Case="Accusative" Gender="Masculine" nodeId="430190120230010" xml:id="n43019012023" ref="JHN 19:12!23" NormalizedForm="βασιλέα" FunctionalTag="N-ASM" FormalTag="N-ASM" Gloss="a king" LexDomain="037004" LN="37.67" status="mapped">βασιλέα</Node>
                         </Node>
                       </Node>
                       <Node Id="1.56" Cat="O" Start="16" End="16" Rule="Np2O" Head="0" nodeId="430190120240012" Length="1">
